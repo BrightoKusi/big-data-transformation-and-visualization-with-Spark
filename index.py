@@ -32,7 +32,7 @@ taxi_zone_lookup_df = spark.read.csv('taxi_zone_lookup.csv', header=True)
 # Remove duplicate rows from taxi_zone_df
 taxi_zone_lookup_df = taxi_zone_lookup_df.drop_duplicates()
 
-# Merge location details into the yellow trip data DataFrame (yellow_tripdata_df)
+# Merge location details into the yellow trip data  DataFrame (yellow_tripdata_df)
 yellow_tripdata_df = merge_dataframes(yellow_tripdata_df)
 
 # Merge location details into the green trip data DataFrame (green_tripdata_df)
