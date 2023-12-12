@@ -24,7 +24,7 @@ def data_transformation(data_files):
       to the 'taxi_type' column.
 
     Note:
-    - The 'VendorID', 'RatecodeID', 'store_and_fwd_flag', and 'improvement_surcharge' columns are dropped.
+    - The  'VendorID', 'RatecodeID', 'store_and_fwd_flag', and 'improvement_surcharge' columns are dropped.
     - The final output is a combined DataFrame containing the transformed data from all input files.
     """
     for data_file in data_files:

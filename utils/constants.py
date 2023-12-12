@@ -8,6 +8,6 @@ yellow_tripdata_files = ['yellow_tripdata_2023-01.parquet', 'yellow_tripdata_202
               , 'yellow_tripdata_2023-07.parquet', 'yellow_tripdata_2023-08.parquet', 'yellow_tripdata_2023-09.parquet']
 
 
-columns_to_drop = ['VendorID', 'RatecodeID', 'store_and_fwd_flag', 'improvement_surcharge']
+columns_to_drop =  ['VendorID', 'RatecodeID', 'store_and_fwd_flag', 'improvement_surcharge']
 
 
